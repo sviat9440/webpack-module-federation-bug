@@ -9,11 +9,7 @@
     },
     "./entry1": {
       "types": "./types/entry1/index.d.ts",
-      "import": {
-        "node": "./esm/entry1/index.js",
-        "browser": "./esm/entry1/index.browser.js",
-        "default": "./esm/entry1/index.js"
-      },
+      "import": "./esm/entry1/index.js",
       "default": "./esm/entry1/index.js"
     }
   },
