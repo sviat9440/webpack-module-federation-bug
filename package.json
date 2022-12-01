@@ -1,0 +1,15 @@
+{
+  "name": "test-webpack-bug",
+  "version": "1.0.0",
+  "scripts": {
+    "start:with-plugin": "webpack --config with-plugin.config.js && node dist/bundle.js",
+    "start:without-plugin": "webpack --config without-plugin.config.js && node dist/bundle.js"
+  },
+  "dependencies": {
+    "webpack": "^5.75.0",
+    "some-library": "file:./some-library"
+  },
+  "devDependencies": {
+    "webpack-cli": "^5.0.0"
+  }
+}
