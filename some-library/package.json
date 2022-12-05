@@ -2,24 +2,16 @@
   "name": "some-lib",
   "version": "10.2.1",
   "exports": {
-    "./entry2": {
-      "types": "./types/entry2/index.d.ts",
-      "import": "./esm/entry2/index.js",
-      "default": "./esm/entry2/index.js"
-    },
-    "./entry1": {
-      "types": "./types/entry1/index.d.ts",
-      "import": "./esm/entry1/index.js",
-      "default": "./esm/entry1/index.js"
+    "./entry": {
+      "types": "./types/entry/index.d.ts",
+      "import": "./esm/entry/index.js",
+      "default": "./esm/entry/index.js"
     }
   },
   "typesVersions": {
     "*": {
-      "entry2": [
-        "./types/entry2/index.d.ts"
-      ],
-      "entry1": [
-        "./types/entry1/index.d.ts"
+      "entry": [
+        "./types/entry/index.d.ts"
       ]
     }
   }
