@@ -25,7 +25,7 @@ module.exports = {
         '.': path.join(__dirname, './main'),
       },
       shared: {
-        'some-library': {
+        'some-library/': {
           singleton: true,
         },
       },

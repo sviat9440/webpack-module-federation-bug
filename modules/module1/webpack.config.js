@@ -25,7 +25,7 @@ module.exports = {
         shared: "shared@http://localhost:3002/remoteEntry.js",
       },
       shared: {
-        'some-library': {
+        'some-library/': {
           singleton: true,
         },
       },
